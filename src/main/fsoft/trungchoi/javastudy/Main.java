@@ -22,6 +22,10 @@ public class Main {
             System.out.print(i);
             System.out.print(" ");
         }
+        System.out.println();
+        System.out.println("7 is prime number: " + PrimeNumber.isPrimeNumber(7));
+
+        System.out.println("prime number in list fibonacci: " + PrimeNumber.getPrimeNumberFromListNumber(listFibonaci));
     }
 
 }
